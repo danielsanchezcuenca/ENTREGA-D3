@@ -1,0 +1,71 @@
+.bar {
+    fill: steelblue;
+  }
+  
+  .bar:hover {
+    fill: orange;
+  }
+  
+  .axis-label {
+    font-size: 14px;
+  }
+  
+  .axis-line {
+    shape-rendering: crispEdges;
+  }
+  
+  .track,
+  .track-inset,
+  .track-overlay {
+    stroke-linecap: round;
+  }
+  
+  .track {
+    stroke: #000;
+   
+    stroke-width: 10px;
+  }
+  
+  .track-inset {
+    stroke: grey;
+    stroke-width: 8px;
+  }
+  
+  .track-overlay {
+    pointer-events: stroke;
+    stroke-width: 50px;
+    stroke: transparent;
+  }
+  
+  .handle {
+    fill:wheat;
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+  }
+  
+  .tick {
+    stroke: black;
+    stroke-width: 1px;
+  }
+  
+  .tick text {
+    fill: green;
+    font-size: 13px; 
+  }
+  
+  .text {
+    fill: black;
+    font-size: 12px;
+  }
+  
+  
+  .axis text {
+    fill: black;
+  }
+  
+  
+  
+  
+
+  
